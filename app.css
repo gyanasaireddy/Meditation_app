@@ -1,0 +1,99 @@
+.tm{
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  width: 40%;
+  text-align: center;
+  margin-bottom: 40%;
+}
+
+#m{
+  border: 6px solid white;
+  border-radius: 100%;
+  padding:80px;
+  /* min-width: 100px; */
+  /* transition: all 500ms; */
+}
+#m:hover{
+  border: 8px solid white;
+  border-radius: 100%;
+  padding:80px;
+}
+#pl{
+  max-width: 50px;
+  min-width: 45px;
+}
+.we{
+  margin-bottom: 30%;
+}
+#rai{
+  max-width: 80px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 100%;
+  padding:20px;
+  background-color: rgb(30, 59, 83);
+}
+#bec{
+  max-width: 80px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 100%;
+  padding:20px;
+  background-color: rgb(189, 60, 60);
+}
+time{
+  font-size: 20px;
+}
+body{
+  color: white;
+  background-color: black;
+  /* height: 100vh; */
+}
+.display-4{
+  font-size: 2.0rem;
+}
+#myVideo {
+  position: absolute;
+  /* right: 0;
+  bottom: 0; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  margin: 0;
+  padding: 0em;
+  object-fit: cover;
+  
+}
+.container{
+  margin: 10% auto;
+  z-index: 1;
+  /* text-align: center;
+  max-width: 70%;
+  border: 2px solid white; */
+  
+}
+.container:hover{
+  cursor:default;
+}
+.tm:hover{
+  background-color: rgba(128, 128, 128,0.4);
+}
+#rai:hover{
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  padding:20px;
+}
+#bec:hover{
+  border: 3px solid rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  padding:20px;
+}
+
+
+html, body {
+  width: 100%; 
+  height:100%; 
+  overflow:hidden;
+}
